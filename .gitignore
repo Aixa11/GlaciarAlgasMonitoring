@@ -1,0 +1,15 @@
+# Ignorar archivos específicos de GEE o VSC
+.DS_Store
+.vscode/
+
+# Ignorar archivos generados por Node.js o NPM si alguna vez lo usas
+node_modules/
+npm-debug.log
+
+# Ignorar archivos temporales o de backup
+*.bak
+*.tmp
+*~
+
+# Ignorar resultados de exportación si se generan en el repo local
+/exports/
