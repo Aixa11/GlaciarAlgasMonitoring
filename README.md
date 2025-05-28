@@ -28,6 +28,7 @@ Por defecto, el script está configurado para un área de ejemplo en el Glaciar 
 4.  **Ejecuta el script**.
 
 ## Estructura del Proyecto
+```
 .
 ├── GlaciarAlgasMonitoring/
 │   ├── .gitignore
@@ -42,8 +43,14 @@ Por defecto, el script está configurado para un área de ejemplo en el Glaciar 
 │   │   │   └── export_utils.js      # Funciones de exportación
 │   │   └── assets/
 │   │       └── aoi_glaciar.js       # Definición del Área de Interés (AOI)
-│   └── docs/                        # Documentación adicional (guías, etc.)
-
+│   ├── .vscode/                     # (Opcional) Configuración de VSC específica del proyecto
+│   │   ├── settings.json
+│   │   └── extensions.json
+│   └── docs/                        # Documentación adicional (guías, informes, etc.)
+│       ├── setup_guide.md           # Guía de configuración del proyecto
+│       └── MonitoreoCHN.pdf         # Informe del análisis de Chlamydomonas nivalis
+.
+```
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este script, por favor, abre un "issue" o envía un "pull request".
 
