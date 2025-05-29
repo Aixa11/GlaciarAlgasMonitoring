@@ -34,7 +34,7 @@ Por defecto, el script está configurado para un área de ejemplo en el Glaciar 
 │   ├── .gitignore
 │   ├── README.md
 │   ├── src/
-│   │   ├── main.js                  # Script principal que importa y coordina todo
+│   │   ├── main.js                  # Script principal
 │   │   ├── modules/
 │   │   │   ├── ui_elements.js       # Definiciones de UI (paneles, slider, botones)
 │   │   │   ├── data_processing.js   # Funciones de procesamiento (indices, clasificacion, suavizado)
